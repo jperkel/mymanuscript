@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/d10d0d21f86df6d8ca1ed95bbebc4728eb818c5d/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/d10d0d21f86df6d8ca1ed95bbebc4728eb818c5d/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/d10d0d21f86df6d8ca1ed95bbebc4728eb818c5d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/d10d0d21f86df6d8ca1ed95bbebc4728eb818c5d/))
+([permalink](https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/))
 was automatically generated
-from [jperkel/mymanuscript@d10d0d2](https://github.com/jperkel/mymanuscript/tree/d10d0d21f86df6d8ca1ed95bbebc4728eb818c5d)
+from [jperkel/mymanuscript@7ab042c](https://github.com/jperkel/mymanuscript/tree/7ab042c9266463e768be1680d3c2e197077aa06d)
 on March 3, 2020.
 </em></small>
 
@@ -142,10 +142,27 @@ The Fibonacci sequence, in LaTeX:
 
 $$F_n = F_{n-1} + F_{n-2}$$
 
-Here it is graphically (Figure [@fig:fig1]). 
+The results are shown in (Table [@tbl:tbl1]) and (Figure [@fig:fig1]).
+
+| No. | Fib. No. | No. | Fib. No. |
+|:----|:--------:|:----|:--------:|
+| 1   | 0        | 14  | 233      |
+| 2   | 1        | 15  | 377      | 
+| 3   | 1        | 16  | 610      |
+| 4   | 2        | 17  | 987      |
+| 5   | 3        | 18  | 1597     |
+| 6   | 5        | 19  | 2584     |
+| 7   | 8        | 20  | 4181     |
+| 8   | 13       | 21  | 6765     |
+| 9   | 21       | 22  | 10946    |
+| 10  | 34       | 23  | 17711    |
+| 11  | 55       | 24  | 28657    |
+| 12  | 89       | 25  | 46368    |
+| 13  | 144      |     |          |
+Table 1 -- The first 25 Fibonacci numbers{tbl:tbl1}
 
 ### Figure 1 -- The first 25 Fibonacci numbers
-![The first 25 Fibonacci numbers](images/fig1.png){#fig:fig1 width="100%"}
+![The first 25 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
 
 In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl [@doi:10.1038/d41586-019-03632-y].
 
