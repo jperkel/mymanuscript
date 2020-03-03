@@ -1,7 +1,6 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Jeffrey M. Perkel
 bibliography:
 - content/manual-references.json
 date-meta: '2020-03-03'
@@ -15,13 +14,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Demo Manubot Manuscript" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Demo Manubot Manuscript" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Demo Manubot Manuscript" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Demo Manubot Manuscript" />
 
   <meta name="dc.date" content="2020-03-03" />
 
@@ -39,21 +38,13 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Jeffrey M. Perkel" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Technology Editor, Nature" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0001-5699-1008" />
 
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@j_perkel" />
 
   <link rel="canonical" href="https://jperkel.github.io/mymanuscript/" />
 
@@ -67,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/987631c021370c50e216004ee1e3462beb91fe0a/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/8398db995b757eae0ae7a40a3aec9bb34953776b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/987631c021370c50e216004ee1e3462beb91fe0a/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8398db995b757eae0ae7a40a3aec9bb34953776b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/987631c021370c50e216004ee1e3462beb91fe0a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8398db995b757eae0ae7a40a3aec9bb34953776b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -93,7 +84,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Demo Manubot Manuscript
 ...
 
 
@@ -103,9 +94,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/987631c021370c50e216004ee1e3462beb91fe0a/))
+([permalink](https://jperkel.github.io/mymanuscript/v/8398db995b757eae0ae7a40a3aec9bb34953776b/))
 was automatically generated
-from [jperkel/mymanuscript@987631c](https://github.com/jperkel/mymanuscript/tree/987631c021370c50e216004ee1e3462beb91fe0a)
+from [jperkel/mymanuscript@8398db9](https://github.com/jperkel/mymanuscript/tree/8398db995b757eae0ae7a40a3aec9bb34953776b)
 on March 3, 2020.
 </em></small>
 
@@ -113,25 +104,15 @@ on March 3, 2020.
 
 
 
-+ **John Doe**<br>
++ **Jeffrey M. Perkel**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0001-5699-1008](https://orcid.org/0000-0001-5699-1008)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [jperkel](https://github.com/jperkel)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [j_perkel](https://twitter.com/j_perkel)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Technology Editor, Nature
   </small>
 
 
