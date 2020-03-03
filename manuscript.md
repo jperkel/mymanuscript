@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/ac84825109801ae8e28ad4232502e5f3c2c2c00c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ac84825109801ae8e28ad4232502e5f3c2c2c00c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ac84825109801ae8e28ad4232502e5f3c2c2c00c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/7ab042c9266463e768be1680d3c2e197077aa06d/))
+([permalink](https://jperkel.github.io/mymanuscript/v/ac84825109801ae8e28ad4232502e5f3c2c2c00c/))
 was automatically generated
-from [jperkel/mymanuscript@7ab042c](https://github.com/jperkel/mymanuscript/tree/7ab042c9266463e768be1680d3c2e197077aa06d)
+from [jperkel/mymanuscript@ac84825](https://github.com/jperkel/mymanuscript/tree/ac84825109801ae8e28ad4232502e5f3c2c2c00c)
 on March 3, 2020.
 </em></small>
 
@@ -159,7 +159,7 @@ The results are shown in (Table [@tbl:tbl1]) and (Figure [@fig:fig1]).
 | 11  | 55       | 24  | 28657    |
 | 12  | 89       | 25  | 46368    |
 | 13  | 144      |     |          |
-Table 1 -- The first 25 Fibonacci numbers{tbl:tbl1}
+Table 1 -- The first 25 Fibonacci numbers{#tbl:tbl1}
 
 ### Figure 1 -- The first 25 Fibonacci numbers
 ![The first 25 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
