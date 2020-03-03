@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/))
+([permalink](https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/))
 was automatically generated
-from [jperkel/mymanuscript@2ae989a](https://github.com/jperkel/mymanuscript/tree/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5)
+from [jperkel/mymanuscript@36f1f08](https://github.com/jperkel/mymanuscript/tree/36f1f089e49a61609cea529830bab5955c5d9db7)
 on March 3, 2020.
 </em></small>
 
@@ -164,10 +164,10 @@ The first 26 Fibonacci numbers are shown in Table @tbl:tbl1 and Figure @fig:fig1
 | 12  | 89       | 25  | 46368    |
 | 13  | 144      | 26  | 75025    |
 
-Table: The first 25 Fibonacci numbers
+Table: The first 26 Fibonacci numbers
 {#tbl:tbl1}
 
-### Figure 1 -- The first 25 Fibonacci numbers
+### Figure 1 -- The first 26 Fibonacci numbers
 ![The first 25 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
 
 In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl [@doi:10.1038/d41586-019-03632-y].
