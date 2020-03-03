@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/62f599503b883c5531216aa297519ef5435a590a/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/c35ce85c988bb030dc94f7c44bd28aa2d3b1b596/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/62f599503b883c5531216aa297519ef5435a590a/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c35ce85c988bb030dc94f7c44bd28aa2d3b1b596/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/62f599503b883c5531216aa297519ef5435a590a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c35ce85c988bb030dc94f7c44bd28aa2d3b1b596/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/62f599503b883c5531216aa297519ef5435a590a/))
+([permalink](https://jperkel.github.io/mymanuscript/v/c35ce85c988bb030dc94f7c44bd28aa2d3b1b596/))
 was automatically generated
-from [jperkel/mymanuscript@62f5995](https://github.com/jperkel/mymanuscript/tree/62f599503b883c5531216aa297519ef5435a590a)
+from [jperkel/mymanuscript@c35ce85](https://github.com/jperkel/mymanuscript/tree/c35ce85c988bb030dc94f7c44bd28aa2d3b1b596)
 on March 3, 2020.
 </em></small>
 
@@ -138,9 +138,14 @@ Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpa
 ## Results
 Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. 
 
-The Fibonacci sequencing, in LaTeX:
+The Fibonacci sequence, in LaTeX:
 
 $$F_n = F_{n-1} + F_{n-2}$$
+
+Here it is graphically (Figure [@fig:fig1]). 
+
+### Figure 1 -- The first 25 Fibonacci numbers
+![The first 25 Fibonacci numbers](images/fig1.png){#fig:fig1 width="100%"}
 
 In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl.
 
