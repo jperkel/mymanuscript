@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Demo Manubot Manuscript"
 keywords:
   - markdown
   - publishing
@@ -7,21 +7,11 @@ keywords:
 lang: en-US
 authors:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: jperkel
+    name: Jeffrey M. Perkel
+    initials: JMP
+    orcid: 0000-0001-5699-1008
+    twitter: j_perkel
+    email: jeffrey.perkel@nature.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
-  -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Technology Editor, Nature
