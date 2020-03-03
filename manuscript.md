@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/96bf2cc39a07b0d6031948aae1c24e25d49fbe4a/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/96bf2cc39a07b0d6031948aae1c24e25d49fbe4a/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/96bf2cc39a07b0d6031948aae1c24e25d49fbe4a/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/96bf2cc39a07b0d6031948aae1c24e25d49fbe4a/))
+([permalink](https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/))
 was automatically generated
-from [jperkel/mymanuscript@96bf2cc](https://github.com/jperkel/mymanuscript/tree/96bf2cc39a07b0d6031948aae1c24e25d49fbe4a)
+from [jperkel/mymanuscript@ebf17b4](https://github.com/jperkel/mymanuscript/tree/ebf17b4a4911a213aac25af9dd4689621b8e449e)
 on March 3, 2020.
 </em></small>
 
@@ -159,7 +159,8 @@ The results are shown in Table @tbl:tbl1 and Figure @fig:fig1 .
 | 11  | 55       | 24  | 28657    |
 | 12  | 89       | 25  | 46368    |
 | 13  | 144      |     |          |
-Table 1 -- The first 25 Fibonacci numbers
+
+Table: The first 25 Fibonacci numbers
 {#tbl:tbl1}
 
 ### Figure 1 -- The first 25 Fibonacci numbers
@@ -176,6 +177,7 @@ Praesent euismod. Donec nulla augue, venenatis scelerisque, dapibus a, consequat
 Aliquam nonummy adipiscing augue. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
 
 Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.
+
 
 ## References {.page_break_before}
 
