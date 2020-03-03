@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/ebf17b4a4911a213aac25af9dd4689621b8e449e/))
+([permalink](https://jperkel.github.io/mymanuscript/v/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5/))
 was automatically generated
-from [jperkel/mymanuscript@ebf17b4](https://github.com/jperkel/mymanuscript/tree/ebf17b4a4911a213aac25af9dd4689621b8e449e)
+from [jperkel/mymanuscript@2ae989a](https://github.com/jperkel/mymanuscript/tree/2ae989a887eee77060fcb8a35cd5f0b9fa1a29a5)
 on March 3, 2020.
 </em></small>
 
@@ -125,11 +125,15 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 
 ## Introduction
 
-Let's add a citation by persistent identifier.
+Casey Greene added the following text via [pull request](https://github.com/jperkel/mymanuscript/pull/1): "Let's add a citation by persistent identifier.
 This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128].
-It will also give you a chance to review a pull request.
+It will also give you a chance to review a pull request."
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem [@doi:10.1038/d41586-019-03632-y].
+We can format the text using standard Markdown. This is bold text: **Lorem ipsum dolor sit amet**, and this is italic: *consectetuer adipiscing elit*. Here is a superscript number: x^2^. 
+
+Here we'll add a second reference. [@doi:10.1038/d41586-019-03632-y]. Note that if you mouse over the inline references, you will see a hyperlinked tooltip with info about the reference. This reference is actually cited twice in the article, so you should see navigation arrows that allow you to jump to each location. 
+
+Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. 
 
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
 
@@ -138,11 +142,11 @@ Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpa
 ## Results
 Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. 
 
-The Fibonacci sequence, in LaTeX:
+The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers. Expressed mathematically (using LaTeX):
 
 $$F_n = F_{n-1} + F_{n-2}$$
 
-The results are shown in Table @tbl:tbl1 and Figure @fig:fig1 .
+The first 26 Fibonacci numbers are shown in Table @tbl:tbl1 and Figure @fig:fig1 .
 
 | No. | Fib. No. | No. | Fib. No. |
 |:----|:--------:|:----|:--------:|
@@ -158,7 +162,7 @@ The results are shown in Table @tbl:tbl1 and Figure @fig:fig1 .
 | 10  | 34       | 23  | 17711    |
 | 11  | 55       | 24  | 28657    |
 | 12  | 89       | 25  | 46368    |
-| 13  | 144      |     |          |
+| 13  | 144      | 26  | 75025    |
 
 Table: The first 25 Fibonacci numbers
 {#tbl:tbl1}
@@ -173,10 +177,6 @@ Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam i
 Quisque ornare placerat risus. Ut molestie magna at mi. Integer aliquet mauris et nibh. Ut mattis ligula posuere velit. Nunc sagittis. Curabitur varius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue. Nam vulputate. Duis a quam non neque lobortis malesuada.
 
 Praesent euismod. Donec nulla augue, venenatis scelerisque, dapibus a, consequat at, leo. Pellentesque libero lectus, tristique ac, consectetuer sit amet, imperdiet ut, justo. Sed aliquam odio vitae tortor. Proin hendrerit tempus arcu. In hac habitasse platea dictumst. Suspendisse potenti. Vivamus vitae massa adipiscing est lacinia sodales. Donec metus massa, mollis vel, tempus placerat, vestibulum condimentum, ligula. Nunc lacus metus, posuere eget, lacinia eu, varius quis, libero.
-
-Aliquam nonummy adipiscing augue. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-
-Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.
 
 
 ## References {.page_break_before}
