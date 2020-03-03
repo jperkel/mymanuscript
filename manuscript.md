@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/8d41783b42668f1ba875ec256e0873f8a95ff7cb/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8d41783b42668f1ba875ec256e0873f8a95ff7cb/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8d41783b42668f1ba875ec256e0873f8a95ff7cb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/8d41783b42668f1ba875ec256e0873f8a95ff7cb/))
+([permalink](https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/))
 was automatically generated
-from [jperkel/mymanuscript@8d41783](https://github.com/jperkel/mymanuscript/tree/8d41783b42668f1ba875ec256e0873f8a95ff7cb)
+from [jperkel/mymanuscript@f0338ac](https://github.com/jperkel/mymanuscript/tree/f0338ac5dc13b9caad09d054af001a79de39fcca)
 on March 3, 2020.
 </em></small>
 
@@ -121,6 +121,13 @@ on March 3, 2020.
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
 
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
+
+
+## Introduction
+
+Let's add a citation by persistent identifier.
+This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128].
+It will also give you a chance to review a pull request.
 
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.[@doi: 10.1371/journal.pcbi.1007128]
