@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/c8718d23357f07842844705acf579190f3840527/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c8718d23357f07842844705acf579190f3840527/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c8718d23357f07842844705acf579190f3840527/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/f0338ac5dc13b9caad09d054af001a79de39fcca/))
+([permalink](https://jperkel.github.io/mymanuscript/v/c8718d23357f07842844705acf579190f3840527/))
 was automatically generated
-from [jperkel/mymanuscript@f0338ac](https://github.com/jperkel/mymanuscript/tree/f0338ac5dc13b9caad09d054af001a79de39fcca)
+from [jperkel/mymanuscript@c8718d2](https://github.com/jperkel/mymanuscript/tree/c8718d23357f07842844705acf579190f3840527)
 on March 3, 2020.
 </em></small>
 
@@ -130,6 +130,7 @@ This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128].
 It will also give you a chance to review a pull request.
 
 
+## Introduction {.page_break_before}
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.[@doi: 10.1371/journal.pcbi.1007128]
 
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
