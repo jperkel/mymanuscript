@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/))
+([permalink](https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/))
 was automatically generated
-from [jperkel/mymanuscript@48c3e4b](https://github.com/jperkel/mymanuscript/tree/48c3e4ba19ea134472a0f4e72b285030e1b24976)
+from [jperkel/mymanuscript@75b9771](https://github.com/jperkel/mymanuscript/tree/75b977192134ce3db3c994608c4112a6786db1dc)
 on March 4, 2020.
 </em></small>
 
@@ -133,7 +133,7 @@ Authors and collaborators can contribute to a Manubot document either by editing
 This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128].
 It will also give you a chance to review a pull request."
 
-Citations are added by identifier. Greene's pull request added a reference to the original Manubot paper by inserting "@doi" followed by the DOI: 10.1371/journal.pcbi.1007128. Citations can also be added using arXiv or PubMed IDs, URLs, and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location. 
+Citations are added by identifier. Greene's pull request added a reference to the original Manubot paper using just the DOI: 10.1371/journal.pcbi.1007128. Citations can also be added using arXiv or PubMed IDs, URLs, and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location. 
 
 Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. 
 
@@ -168,11 +168,11 @@ Manubot automatically numbers figures and tables, and allows authors to referenc
 Table: The first 26 Fibonacci numbers
 {#tbl:tbl1}
 
-![The first 26 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
-
 In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl [@doi:10.1038/d41586-019-03632-y].
 
-Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris. Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lacinia pretium, pede metus molestie lacus, at gravida wisi ante at libero.
+![The first 26 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
+
+Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris. Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lacinia pretium, pede metus molestie lacus, at gravida wisi ante at libero [@doi:10.1038/d41586-019-03366-x].
 
 Quisque ornare placerat risus. Ut molestie magna at mi. Integer aliquet mauris et nibh. Ut mattis ligula posuere velit. Nunc sagittis. Curabitur varius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue. Nam vulputate. Duis a quam non neque lobortis malesuada.
 
