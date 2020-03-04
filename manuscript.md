@@ -3,7 +3,7 @@ author-meta:
 - Jeffrey M. Perkel
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-03'
+date-meta: '2020-03-04'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Demo Manubot Manuscript" />
 
-  <meta name="dc.date" content="2020-03-03" />
+  <meta name="dc.date" content="2020-03-04" />
 
-  <meta name="citation_publication_date" content="2020-03-03" />
+  <meta name="citation_publication_date" content="2020-03-04" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,10 +94,10 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/36f1f089e49a61609cea529830bab5955c5d9db7/))
+([permalink](https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/))
 was automatically generated
-from [jperkel/mymanuscript@36f1f08](https://github.com/jperkel/mymanuscript/tree/36f1f089e49a61609cea529830bab5955c5d9db7)
-on March 3, 2020.
+from [jperkel/mymanuscript@7c6aff3](https://github.com/jperkel/mymanuscript/tree/7c6aff35340063874dd08432d91e83545e0ba5e0)
+on March 4, 2020.
 </em></small>
 
 ## Authors
@@ -125,13 +125,15 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 
 ## Introduction
 
-Casey Greene added the following text via [pull request](https://github.com/jperkel/mymanuscript/pull/1): "Let's add a citation by persistent identifier.
+Manubot is a tool for collaboratively authoring and editing scientific manuscripts on GitHub. It uses the simple formatting language called Markdown, in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~ and hyperlinks. 
+
+Authors and collaborators can contribute to a Manubot document either by editing the document on the GitHub web site or by cloning the repository to their own computer, editing the text, and submitting a 'pull request'. For instance, Casey Greene -- whose lab first developed Manubot to manage a [review of deep learning](https://greenelab.github.io/meta-review/) -- added the following text via [pull request](https://github.com/jperkel/mymanuscript/pull/1): 
+
+"Let's add a citation by persistent identifier.
 This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128].
 It will also give you a chance to review a pull request."
 
-We can format the text using standard Markdown. This is bold text: **Lorem ipsum dolor sit amet**, and this is italic: *consectetuer adipiscing elit*. Here is a superscript number: x^2^. 
-
-Here we'll add a second reference. [@doi:10.1038/d41586-019-03632-y]. Note that if you mouse over the inline references, you will see a hyperlinked tooltip with info about the reference. This reference is actually cited twice in the article, so you should see navigation arrows that allow you to jump to each location. 
+Here we'll add a second reference. [@doi:10.1038/d41586-019-03632-y]. Note that if you mouse over the inline references, you will see a tooltip that includes hyperlinked information about the reference, such as the PubMed ID. As this particular reference is actually cited twice in the article, you should see navigation arrows that allow you to jump to each location. 
 
 Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. 
 
@@ -140,13 +142,12 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis.
 
 ## Results
-Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. 
 
 The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers. Expressed mathematically (using LaTeX):
 
 $$F_n = F_{n-1} + F_{n-2}$$
 
-The first 26 Fibonacci numbers are shown in Table @tbl:tbl1 and Figure @fig:fig1 .
+Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table @tbl:tbl1 and Figure @fig:fig1. 
 
 | No. | Fib. No. | No. | Fib. No. |
 |:----|:--------:|:----|:--------:|
