@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/7c6aff35340063874dd08432d91e83545e0ba5e0/))
+([permalink](https://jperkel.github.io/mymanuscript/v/48c3e4ba19ea134472a0f4e72b285030e1b24976/))
 was automatically generated
-from [jperkel/mymanuscript@7c6aff3](https://github.com/jperkel/mymanuscript/tree/7c6aff35340063874dd08432d91e83545e0ba5e0)
+from [jperkel/mymanuscript@48c3e4b](https://github.com/jperkel/mymanuscript/tree/48c3e4ba19ea134472a0f4e72b285030e1b24976)
 on March 4, 2020.
 </em></small>
 
@@ -117,7 +117,7 @@ on March 4, 2020.
 
 
 
-## Abstract {.page_break_before}
+## Abstract
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
 
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
@@ -127,13 +127,13 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 
 Manubot is a tool for collaboratively authoring and editing scientific manuscripts on GitHub. It uses the simple formatting language called Markdown, in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~ and hyperlinks. 
 
-Authors and collaborators can contribute to a Manubot document either by editing the document on the GitHub web site or by cloning the repository to their own computer, editing the text, and submitting a 'pull request'. For instance, Casey Greene -- whose lab first developed Manubot to manage a [review of deep learning](https://greenelab.github.io/meta-review/) -- added the following text via [pull request](https://github.com/jperkel/mymanuscript/pull/1): 
+Authors and collaborators can contribute to a Manubot document either by editing the document on the GitHub web site or by cloning the repository to their own computer, editing the text, and submitting a GitHub 'pull request'. For instance, Casey Greene -- whose lab first developed Manubot to manage a [review of deep learning](https://greenelab.github.io/deep-review/) -- added the following text via [pull request](https://github.com/jperkel/mymanuscript/pull/1): 
 
 "Let's add a citation by persistent identifier.
 This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128].
 It will also give you a chance to review a pull request."
 
-Here we'll add a second reference. [@doi:10.1038/d41586-019-03632-y]. Note that if you mouse over the inline references, you will see a tooltip that includes hyperlinked information about the reference, such as the PubMed ID. As this particular reference is actually cited twice in the article, you should see navigation arrows that allow you to jump to each location. 
+Citations are added by identifier. Greene's pull request added a reference to the original Manubot paper by inserting "@doi" followed by the DOI: 10.1371/journal.pcbi.1007128. Citations can also be added using arXiv or PubMed IDs, URLs, and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location. 
 
 Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. 
 
@@ -143,7 +143,7 @@ Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpa
 
 ## Results
 
-The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers. Expressed mathematically (using LaTeX):
+The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, ...). Expressed mathematically (using LaTeX):
 
 $$F_n = F_{n-1} + F_{n-2}$$
 
@@ -168,8 +168,7 @@ Manubot automatically numbers figures and tables, and allows authors to referenc
 Table: The first 26 Fibonacci numbers
 {#tbl:tbl1}
 
-### Figure 1 -- The first 26 Fibonacci numbers
-![The first 25 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
+![The first 26 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
 
 In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl [@doi:10.1038/d41586-019-03632-y].
 
