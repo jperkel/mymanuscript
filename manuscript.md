@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/75b977192134ce3db3c994608c4112a6786db1dc/))
+([permalink](https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/))
 was automatically generated
-from [jperkel/mymanuscript@75b9771](https://github.com/jperkel/mymanuscript/tree/75b977192134ce3db3c994608c4112a6786db1dc)
+from [jperkel/mymanuscript@c5975e2](https://github.com/jperkel/mymanuscript/tree/c5975e2fb33683a68bdd2db9c44c1796fa6471f7)
 on March 4, 2020.
 </em></small>
 
@@ -118,28 +118,25 @@ on March 4, 2020.
 
 
 ## Abstract
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+[Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts on GitHub. It uses the simple formatting language called [Markdown](https://www.markdownguide.org/), in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~, hyperlinks, and more. 
 
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
+Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer, editing the text there, and submitting a GitHub 'pull request'. Casey Greene -- whose lab first developed Manubot to manage a [review of deep learning](https://greenelab.github.io/deep-review/) -- added the following text to this document via [pull request](https://github.com/jperkel/mymanuscript/pull/1): 
+
+>Let's add a citation by persistent identifier. This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128]. It will also give you a chance to review a pull request.
+
+Greene's pull request added a reference to the original Manubot paper using just the DOI -- a feature called 'cite-by-identifier'. Citations can also be added using arXiv or PubMed IDs, URLs, and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location.
 
 
 ## Introduction
 
-Manubot is a tool for collaboratively authoring and editing scientific manuscripts on GitHub. It uses the simple formatting language called Markdown, in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~ and hyperlinks. 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
 
-Authors and collaborators can contribute to a Manubot document either by editing the document on the GitHub web site or by cloning the repository to their own computer, editing the text, and submitting a GitHub 'pull request'. For instance, Casey Greene -- whose lab first developed Manubot to manage a [review of deep learning](https://greenelab.github.io/deep-review/) -- added the following text via [pull request](https://github.com/jperkel/mymanuscript/pull/1): 
-
-"Let's add a citation by persistent identifier.
-This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128].
-It will also give you a chance to review a pull request."
-
-Citations are added by identifier. Greene's pull request added a reference to the original Manubot paper using just the DOI: 10.1371/journal.pcbi.1007128. Citations can also be added using arXiv or PubMed IDs, URLs, and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location. 
+In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
 
 Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. 
 
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
 
-Donec ut est in lectus consequat consequat. Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique. Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis.
 
 ## Results
 
@@ -178,6 +175,14 @@ Quisque ornare placerat risus. Ut molestie magna at mi. Integer aliquet mauris e
 
 Praesent euismod. Donec nulla augue, venenatis scelerisque, dapibus a, consequat at, leo. Pellentesque libero lectus, tristique ac, consectetuer sit amet, imperdiet ut, justo. Sed aliquam odio vitae tortor. Proin hendrerit tempus arcu. In hac habitasse platea dictumst. Suspendisse potenti. Vivamus vitae massa adipiscing est lacinia sodales. Donec metus massa, mollis vel, tempus placerat, vestibulum condimentum, ligula. Nunc lacus metus, posuere eget, lacinia eu, varius quis, libero.
 
+
+## Methods
+
+All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. [@doi:10.1038/d41586-019-02477-9; @doi:10.1038/d41586-019-02619-z] 
+
+All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. 
+
+All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. 
 
 ## References {.page_break_before}
 
