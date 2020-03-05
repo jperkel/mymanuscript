@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Jeffrey M. Perkel" />
-  <meta name="dcterms.date" content="2020-03-04" />
+  <meta name="dcterms.date" content="2020-03-05" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Demo Manubot Manuscript</title>
   <style>
@@ -15,6 +15,68 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -28,8 +90,8 @@
   <meta name="citation_title" content="Demo Manubot Manuscript" />
   <meta property="og:title" content="Demo Manubot Manuscript" />
   <meta property="twitter:title" content="Demo Manubot Manuscript" />
-  <meta name="dc.date" content="2020-03-04" />
-  <meta name="citation_publication_date" content="2020-03-04" />
+  <meta name="dc.date" content="2020-03-05" />
+  <meta name="citation_publication_date" content="2020-03-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +108,9 @@
   <meta name="citation_fulltext_html_url" content="https://jperkel.github.io/mymanuscript/" />
   <meta name="citation_pdf_url" content="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/" />
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +124,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jperkel.github.io/mymanuscript/v/c5975e2fb33683a68bdd2db9c44c1796fa6471f7/">permalink</a>)
+(<a href="https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jperkel/mymanuscript/tree/c5975e2fb33683a68bdd2db9c44c1796fa6471f7">jperkel/mymanuscript@c5975e2</a>
-on March 4, 2020.
+from <a href="https://github.com/jperkel/mymanuscript/tree/0d797f065f8e9e4dffd1d9d758e2ae55ae103289">jperkel/mymanuscript@0d797f0</a>
+on March 5, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -81,21 +143,38 @@ Technology Editor, Nature
 </small></li>
 </ul>
 <h2 id="abstract">Abstract</h2>
-<p><a href="https://manubot.org/">Manubot</a> is a tool for collaboratively authoring and editing scientific manuscripts on GitHub. It uses the simple formatting language called <a href="https://www.markdownguide.org/">Markdown</a>, in which, for example, <strong>bold text</strong> is indicated by double asterisks and <em>italic text</em> is indicated by single asterisks. You can add superscripts (x<sup>2</sup>) and subscripts (H<sub>2</sub>O), as well as <del>strikethrough text</del>, hyperlinks, and more.</p>
+<p>To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage you to contribute to this document, as detailed in the Methods section below.</p>
+<h2 id="introduction">Introduction</h2>
+<p><a href="https://manubot.org/">Manubot</a> is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub.</p>
+<p>Create a new Manubot project by cloning the Manubot <code>rootstock</code> repository and then following the instructions in the repo’s <a href="https://github.com/manubot/rootstock/blob/master/SETUP.md"><code>setup.md</code> file</a>. Once that’s finished, you can start adding text to your <a href="https://github.com/manubot/rootstock/tree/master/content"><code>content</code> directory</a>. Pushing those changes to GitHub causes Manubot to compile and publish the document in both HTML and PDF formats.</p>
+<p>Manubot uses the simple formatting language called <a href="https://www.markdownguide.org/">Markdown</a>, in which, for example, <strong>bold text</strong> is indicated by double asterisks and <em>italic text</em> is indicated by single asterisks. You can add superscripts (x<sup>2</sup>) and subscripts (H<sub>2</sub>O), as well as <del>strikethrough text</del>, hyperlinks, and more.</p>
 <p>Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer, editing the text there, and submitting a GitHub ‘pull request’. Casey Greene – whose lab first developed Manubot to manage a <a href="https://greenelab.github.io/deep-review/">review of deep learning</a> – added the following text to this document via <a href="https://github.com/jperkel/mymanuscript/pull/1">pull request</a>:</p>
 <blockquote>
 <p>Let’s add a citation by persistent identifier. This is my favorite feature of Manubot <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">1</a>]</span>. It will also give you a chance to review a pull request.</p>
 </blockquote>
-<p>Greene’s pull request added a reference to the original Manubot paper using just the DOI – a feature called ‘cite-by-identifier’. Citations can also be added using arXiv or PubMed IDs, URLs, and <a href="https://greenelab.github.io/meta-review/#tbl:citations">other identifiers</a>. Here we’ll add a second reference by DOI. <span class="citation" data-cites="KiqqECJ9">[<a href="#ref-KiqqECJ9" role="doc-biblioref">2</a>]</span>. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location.</p>
-<h2 id="introduction">Introduction</h2>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.</p>
-<p>In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.</p>
-<p>Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.</p>
-<p>In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.</p>
+<p>Greene’s pull request added a reference to the original Manubot paper using just its DOI – a feature called ‘cite-by-identifier’. Citations can also be added using arXiv <span class="citation" data-cites="arXiv:1906.11238">[<span class="citeproc-not-found" data-reference-id="arXiv:1906.11238"><strong>???</strong></span>]</span> or PubMed IDs <span class="citation" data-cites="12PykRC5m">[<a href="#ref-12PykRC5m" role="doc-biblioref">2</a>]</span>, URLs <span class="citation" data-cites="BzaurmBb">[<a href="#ref-BzaurmBb" role="doc-biblioref">3</a>]</span>, and <a href="https://greenelab.github.io/meta-review/#tbl:citations">other identifiers</a>. Here we’ll add a second reference by DOI. <span class="citation" data-cites="KiqqECJ9">[<a href="#ref-KiqqECJ9" role="doc-biblioref">4</a>]</span>. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location.</p>
 <h2 id="results">Results</h2>
+<p>Here we’ll demonstrate how Manubot supports documents containing data tables and figures.</p>
 <p>The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, …). Expressed mathematically (using LaTeX):</p>
 <p><span class="math display">\[F_n = F_{n-1} + F_{n-2}\]</span></p>
-<p>Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table <a href="#tbl:tbl1">1</a> and Figure <a href="#fig:fig1">1</a>.</p>
+<p>We can calculate that sequence using the programming language R, and we can show that code here thanks to Markdown:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># calculate the first `n` Fibonacci numbers</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>fibonacci &lt;-<span class="st"> </span><span class="cf">function</span>(n) {</span>
+<span id="cb1-3"><a href="#cb1-3"></a>  <span class="kw">stopifnot</span>(n <span class="op">&gt;</span><span class="st"> </span><span class="dv">2</span>)</span>
+<span id="cb1-4"><a href="#cb1-4"></a>  ar &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="dv">0</span>, n)</span>
+<span id="cb1-5"><a href="#cb1-5"></a>  ar[<span class="dv">1</span>] &lt;-<span class="st"> </span>f1 &lt;-<span class="st"> </span><span class="dv">0</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a>  ar[<span class="dv">2</span>] &lt;-<span class="st"> </span>f2 &lt;-<span class="st"> </span><span class="dv">1</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">3</span><span class="op">:</span>n) {</span>
+<span id="cb1-8"><a href="#cb1-8"></a>    f3 &lt;-<span class="st"> </span>f1 <span class="op">+</span><span class="st"> </span>f2</span>
+<span id="cb1-9"><a href="#cb1-9"></a>    ar[i] &lt;-<span class="st"> </span>f3</span>
+<span id="cb1-10"><a href="#cb1-10"></a>    f1 &lt;-<span class="st"> </span>f2</span>
+<span id="cb1-11"><a href="#cb1-11"></a>    f2 &lt;-<span class="st"> </span>f3</span>
+<span id="cb1-12"><a href="#cb1-12"></a>  }</span>
+<span id="cb1-13"><a href="#cb1-13"></a>  <span class="kw">return</span> (ar)</span>
+<span id="cb1-14"><a href="#cb1-14"></a>}</span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a>f &lt;-<span class="st"> </span><span class="kw">fibonacci</span>(<span class="dv">26</span>)</span></code></pre></div>
+<p>Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table <a href="#tbl:tbl1">1</a>. (The preceding number was automatically generated and inserted.)</p>
 <div id="tbl:tbl1" class="tablenos">
 <table>
 <caption><span>Table 1:</span> The first 26 Fibonacci numbers
@@ -190,19 +269,24 @@ Technology Editor, Nature
 </tbody>
 </table>
 </div>
-<p>In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras faucibus condimentum odio. Sed ac ligula. Aliquam at eros. Etiam at ligula et tellus ullamcorper ultrices. In fermentum, lorem non cursus porttitor, diam urna accumsan lacus, sed interdum wisi nibh nec nisl <span class="citation" data-cites="KiqqECJ9">[<a href="#ref-KiqqECJ9" role="doc-biblioref">2</a>]</span>.</p>
+<p>We can also display those data graphically, as shown in Figure <a href="#fig:fig1">1</a>.</p>
 <div id="fig:fig1" class="fignos">
 <figure>
 <img src="images/fibonacci.jpg" alt="" /><figcaption><span>Figure 1:</span> The first 26 Fibonacci numbers</figcaption>
 </figure>
 </div>
-<p>Ut tincidunt volutpat urna. Mauris eleifend nulla eget mauris. Sed cursus quam id felis. Curabitur posuere quam vel nibh. Cras dapibus dapibus nisl. Vestibulum quis dolor a felis congue vehicula. Maecenas pede purus, tristique ac, tempus eget, egestas quis, mauris. Curabitur non eros. Nullam hendrerit bibendum justo. Fusce iaculis, est quis lacinia pretium, pede metus molestie lacus, at gravida wisi ante at libero <span class="citation" data-cites="1GrjyqoH1">[<a href="#ref-1GrjyqoH1" role="doc-biblioref">3</a>]</span>.</p>
-<p>Quisque ornare placerat risus. Ut molestie magna at mi. Integer aliquet mauris et nibh. Ut mattis ligula posuere velit. Nunc sagittis. Curabitur varius fringilla nisl. Duis pretium mi euismod erat. Maecenas id augue. Nam vulputate. Duis a quam non neque lobortis malesuada.</p>
-<p>Praesent euismod. Donec nulla augue, venenatis scelerisque, dapibus a, consequat at, leo. Pellentesque libero lectus, tristique ac, consectetuer sit amet, imperdiet ut, justo. Sed aliquam odio vitae tortor. Proin hendrerit tempus arcu. In hac habitasse platea dictumst. Suspendisse potenti. Vivamus vitae massa adipiscing est lacinia sodales. Donec metus massa, mollis vel, tempus placerat, vestibulum condimentum, ligula. Nunc lacus metus, posuere eget, lacinia eu, varius quis, libero.</p>
 <h2 id="methods">Methods</h2>
-<p>All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. <span class="citation" data-cites="bWOcx5Cd HBp3QVVx">[<a href="#ref-bWOcx5Cd" role="doc-biblioref">4</a>,<a href="#ref-HBp3QVVx" role="doc-biblioref">5</a>]</span></p>
-<p>All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy.</p>
-<p>All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy.</p>
+<p>To contribute to this document, check out this <a href="https://manubot.org/docs/getting-started.html">tutorial video</a>. Then:</p>
+<ol type="1">
+<li>Go to the project’s underlying <a href="https://github.com/jperkel/mymanuscript">GitHub directory</a>.</li>
+<li>‘Fork’ a copy of the repository to your own GitHub account by clicking the Fork icon at the top of the page.</li>
+<li>In your copy of the repository, navigate to the <code>content</code> subdirectory.</li>
+<li>Click any document file to open it (these are the files whose names begin with numbers, eg <code>00.front-matter.md</code>, <code>01.abstract.md</code>, …). In the gray bar above the document text is a toolbar; select the pencil icon to edit the file. Make your suggested changes.</li>
+<li>At the bottom of the page, where it says “Commit changes”, add an optional comment, and select ‘Create a new branch for this commit and start a pull request.’ The software will suggest a new name for this branch, like <code>jperkel-patch-1</code>; you can change that if you’d like.</li>
+<li>Click “Propose file change”.</li>
+<li>In the resulting web page, entitled “Open a pull request”, click “Create pull request”.</li>
+<li>You’re done!</li>
+</ol>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
@@ -212,29 +296,23 @@ Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat 
 <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a><br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></p>
 </div>
+<div id="ref-12PykRC5m">
+<p>2. <strong>A new coronavirus associated with human respiratory disease in China.</strong><br />
+Fan Wu, Su Zhao, Bin Yu, Yan-Mei Chen, Wen Wang, Zhi-Gang Song, Yi Hu, Zhao-Wu Tao, Jun-Hua Tian, Yuan-Yuan Pei, … Yong-Zhen Zhang<br />
+<em>Nature</em> (2020-02-03) <a href="https://www.ncbi.nlm.nih.gov/pubmed/32015508">https://www.ncbi.nlm.nih.gov/pubmed/32015508</a><br />
+DOI: <a href="https://doi.org/10.1038/s41586-020-2008-3">10.1038/s41586-020-2008-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32015508">32015508</a></p>
+</div>
+<div id="ref-BzaurmBb">
+<p>3. <strong>CRISPR treatment inserted directly into the body for first time</strong><br />
+Heidi Ledford<br />
+<em>Nature</em> (2020-03-05) <a href="https://www.nature.com/articles/d41586-020-00655-8">https://www.nature.com/articles/d41586-020-00655-8</a><br />
+DOI: <a href="https://doi.org/10.1038/d41586-020-00655-8">10.1038/d41586-020-00655-8</a></p>
+</div>
 <div id="ref-KiqqECJ9">
-<p>2. <strong>The microscope makers putting ever-larger biological samples under the spotlight</strong><br />
+<p>4. <strong>The microscope makers putting ever-larger biological samples under the spotlight</strong><br />
 Jeffrey M. Perkel<br />
 <em>Nature</em> (2019-11-26) <a href="https://doi.org/ggm9g5">https://doi.org/ggm9g5</a><br />
 DOI: <a href="https://doi.org/10.1038/d41586-019-03632-y">10.1038/d41586-019-03632-y</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31772373">31772373</a></p>
-</div>
-<div id="ref-1GrjyqoH1">
-<p>3. <strong>Make code accessible with these cloud services</strong><br />
-Jeffrey M. Perkel<br />
-<em>Nature</em> (2019-11-05) <a href="https://doi.org/ggnbfg">https://doi.org/ggnbfg</a><br />
-DOI: <a href="https://doi.org/10.1038/d41586-019-03366-x">10.1038/d41586-019-03366-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31690867">31690867</a></p>
-</div>
-<div id="ref-bWOcx5Cd">
-<p>4. <strong>Starfish enterprise: finding RNA patterns in single cells</strong><br />
-Jeffrey M. Perkel<br />
-<em>Nature</em> (2019-08-19) <a href="https://doi.org/ggndkx">https://doi.org/ggndkx</a><br />
-DOI: <a href="https://doi.org/10.1038/d41586-019-02477-9">10.1038/d41586-019-02477-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31427807">31427807</a></p>
-</div>
-<div id="ref-HBp3QVVx">
-<p>5. <strong>Workflow systems turn raw data into scientific knowledge</strong><br />
-Jeffrey M. Perkel<br />
-<em>Nature</em> (2019-09-02) <a href="https://doi.org/gf8nw9">https://doi.org/gf8nw9</a><br />
-DOI: <a href="https://doi.org/10.1038/d41586-019-02619-z">10.1038/d41586-019-02619-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31477884">31477884</a></p>
 </div>
 </div>
 <!-- default theme -->
