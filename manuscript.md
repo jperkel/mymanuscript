@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/0d797f065f8e9e4dffd1d9d758e2ae55ae103289/))
+([permalink](https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/))
 was automatically generated
-from [jperkel/mymanuscript@0d797f0](https://github.com/jperkel/mymanuscript/tree/0d797f065f8e9e4dffd1d9d758e2ae55ae103289)
+from [jperkel/mymanuscript@66bac1b](https://github.com/jperkel/mymanuscript/tree/66bac1b217560b7ef4f5868db0d6a0c0883be8fb)
 on March 5, 2020.
 </em></small>
 
@@ -134,7 +134,7 @@ Authors and collaborators can contribute to a project either by editing the docu
 
 >Let's add a citation by persistent identifier. This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128]. It will also give you a chance to review a pull request.
 
-Greene's pull request added a reference to the original Manubot paper using just its DOI -- a feature called 'cite-by-identifier'. Citations can also be added using arXiv [@arXiv:1906.11238] or PubMed IDs [@pmid:32015508], URLs [@url:https://www.nature.com/articles/d41586-020-00655-8], and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location.
+Greene's pull request added a reference to the original Manubot paper using just its DOI -- a feature called 'cite-by-identifier'. Citations can also be added using arXiv [@arxiv:1906.11238] or PubMed IDs [@pmid:32015508], URLs [@url:https://www.nature.com/articles/d41586-020-00655-8], and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location.
 
 
 ## Results
