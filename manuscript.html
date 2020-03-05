@@ -108,9 +108,9 @@
   <meta name="citation_fulltext_html_url" content="https://jperkel.github.io/mymanuscript/" />
   <meta name="citation_pdf_url" content="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/" />
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -124,9 +124,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/">permalink</a>)
+(<a href="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jperkel/mymanuscript/tree/66bac1b217560b7ef4f5868db0d6a0c0883be8fb">jperkel/mymanuscript@66bac1b</a>
+from <a href="https://github.com/jperkel/mymanuscript/tree/ebe665ecfe7f0c3028e34f206581da3af85f0427">jperkel/mymanuscript@ebe665e</a>
 on March 5, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -146,7 +146,7 @@ Technology Editor, Nature
 <p>To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage you to contribute to this document, as detailed in the Methods section below.</p>
 <h2 id="introduction">Introduction</h2>
 <p><a href="https://manubot.org/">Manubot</a> is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub.</p>
-<p>Create a new Manubot project by cloning the Manubot <code>rootstock</code> repository and then following the instructions in the repo’s <a href="https://github.com/manubot/rootstock/blob/master/SETUP.md"><code>setup.md</code> file</a>. Once that’s finished, you can start adding text to your <a href="https://github.com/manubot/rootstock/tree/master/content"><code>content</code> directory</a>. Pushing those changes to GitHub causes Manubot to compile and publish the document in both HTML and PDF formats.</p>
+<p>Create a new Manubot project by cloning the <a href="https://github.com/manubot/rootstock">Manubot <code>rootstock</code> repository</a> and then following the instructions in the repo’s <a href="https://github.com/manubot/rootstock/blob/master/SETUP.md"><code>setup.md</code> file</a>. Once that’s finished, you can start adding text to your <a href="https://github.com/manubot/rootstock/tree/master/content"><code>content</code> directory</a>. Pushing those changes to GitHub causes Manubot to compile and publish the document in both HTML and PDF formats.</p>
 <p>Manubot uses the simple formatting language called <a href="https://www.markdownguide.org/">Markdown</a>, in which, for example, <strong>bold text</strong> is indicated by double asterisks and <em>italic text</em> is indicated by single asterisks. You can add superscripts (x<sup>2</sup>) and subscripts (H<sub>2</sub>O), as well as <del>strikethrough text</del>, hyperlinks, and more.</p>
 <p>Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer, editing the text there, and submitting a GitHub ‘pull request’. Casey Greene – whose lab first developed Manubot to manage a <a href="https://greenelab.github.io/deep-review/">review of deep learning</a> – added the following text to this document via <a href="https://github.com/jperkel/mymanuscript/pull/1">pull request</a>:</p>
 <blockquote>
@@ -157,7 +157,7 @@ Technology Editor, Nature
 <p>Here we’ll demonstrate how Manubot supports documents containing data tables and figures.</p>
 <p>The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, …). Expressed mathematically (using LaTeX):</p>
 <p><span class="math display">\[F_n = F_{n-1} + F_{n-2}\]</span></p>
-<p>We can calculate that sequence using the programming language R, and we can show that code here thanks to Markdown:</p>
+<p>We can calculate that sequence using the programming language R, and we can show that code here in Markdown:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># calculate the first `n` Fibonacci numbers</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a>fibonacci &lt;-<span class="st"> </span><span class="cf">function</span>(n) {</span>
 <span id="cb1-3"><a href="#cb1-3"></a>  <span class="kw">stopifnot</span>(n <span class="op">&gt;</span><span class="st"> </span><span class="dv">2</span>)</span>
@@ -174,7 +174,7 @@ Technology Editor, Nature
 <span id="cb1-14"><a href="#cb1-14"></a>}</span>
 <span id="cb1-15"><a href="#cb1-15"></a></span>
 <span id="cb1-16"><a href="#cb1-16"></a>f &lt;-<span class="st"> </span><span class="kw">fibonacci</span>(<span class="dv">26</span>)</span></code></pre></div>
-<p>Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table <a href="#tbl:tbl1">1</a>. (The preceding number was automatically generated and inserted.)</p>
+<p>Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table <a href="#tbl:tbl1">1</a>. (The preceding number was automatically generated and inserted.)<span class="citation" data-cites="KiqqECJ9">[<a href="#ref-KiqqECJ9" role="doc-biblioref">5</a>]</span></p>
 <div id="tbl:tbl1" class="tablenos">
 <table>
 <caption><span>Table 1:</span> The first 26 Fibonacci numbers
@@ -278,11 +278,12 @@ Technology Editor, Nature
 <h2 id="methods">Methods</h2>
 <p>To contribute to this document, check out this <a href="https://manubot.org/docs/getting-started.html">tutorial video</a>. Then:</p>
 <ol type="1">
-<li>Go to the project’s underlying <a href="https://github.com/jperkel/mymanuscript">GitHub directory</a>.</li>
+<li>Go to the document’s underlying <a href="https://github.com/jperkel/mymanuscript">GitHub repository</a>.</li>
 <li>‘Fork’ a copy of the repository to your own GitHub account by clicking the Fork icon at the top of the page.</li>
 <li>In your copy of the repository, navigate to the <code>content</code> subdirectory.</li>
 <li>Click any document file to open it (these are the files whose names begin with numbers, eg <code>00.front-matter.md</code>, <code>01.abstract.md</code>, …). In the gray bar above the document text is a toolbar; select the pencil icon to edit the file. Make your suggested changes.</li>
-<li>At the bottom of the page, where it says “Commit changes”, add an optional comment, and select ‘Create a new branch for this commit and start a pull request.’ The software will suggest a new name for this branch, like <code>jperkel-patch-1</code>; you can change that if you’d like.</li>
+<li>At the bottom of the page, where it says “Commit changes”, add an informative message and optional comment.</li>
+<li>Select ‘Create a new branch for this commit and start a pull request.’ The software will suggest a new name for this branch, like <code>jperkel-patch-1</code>; you can change that if you’d like.</li>
 <li>Click “Propose file change”.</li>
 <li>In the resulting web page, entitled “Open a pull request”, click “Create pull request”.</li>
 <li>You’re done!</li>

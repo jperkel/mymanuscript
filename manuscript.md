@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/66bac1b217560b7ef4f5868db0d6a0c0883be8fb/))
+([permalink](https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/))
 was automatically generated
-from [jperkel/mymanuscript@66bac1b](https://github.com/jperkel/mymanuscript/tree/66bac1b217560b7ef4f5868db0d6a0c0883be8fb)
+from [jperkel/mymanuscript@ebe665e](https://github.com/jperkel/mymanuscript/tree/ebe665ecfe7f0c3028e34f206581da3af85f0427)
 on March 5, 2020.
 </em></small>
 
@@ -126,7 +126,7 @@ To provide a working example for an article on collaborative science writing pla
 
 [Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub. 
 
-Create a new Manubot project by cloning the Manubot `rootstock` repository and then following the instructions in the repo's [`setup.md` file](https://github.com/manubot/rootstock/blob/master/SETUP.md). Once that's finished, you can start adding text to your [`content` directory](https://github.com/manubot/rootstock/tree/master/content). Pushing those changes to GitHub causes Manubot to compile and publish the document in both HTML and PDF formats. 
+Create a new Manubot project by cloning the [Manubot `rootstock` repository](https://github.com/manubot/rootstock) and then following the instructions in the repo's [`setup.md` file](https://github.com/manubot/rootstock/blob/master/SETUP.md). Once that's finished, you can start adding text to your [`content` directory](https://github.com/manubot/rootstock/tree/master/content). Pushing those changes to GitHub causes Manubot to compile and publish the document in both HTML and PDF formats. 
 
 Manubot uses the simple formatting language called [Markdown](https://www.markdownguide.org/), in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~, hyperlinks, and more. 
 
@@ -145,7 +145,7 @@ The Fibonacci sequence is a numeric sequence in which each number is the sum of 
 
 $$F_n = F_{n-1} + F_{n-2}$$
 
-We can calculate that sequence using the programming language R, and we can show that code here thanks to Markdown: 
+We can calculate that sequence using the programming language R, and we can show that code here in Markdown: 
 
 ```R
 # calculate the first `n` Fibonacci numbers
@@ -166,7 +166,7 @@ fibonacci <- function(n) {
 f <- fibonacci(26)
 ```
 
-Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table @tbl:tbl1. (The preceding number was automatically generated and inserted.) 
+Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table @tbl:tbl1. (The preceding number was automatically generated and inserted.)[@doi:10.1038/d41586-019-03632-y]
 
 | No. | Fib. No. | No. | Fib. No. |
 |:----|:--------:|:----|:--------:|
@@ -196,14 +196,15 @@ We can also display those data graphically, as shown in Figure @fig:fig1.
 
 To contribute to this document, check out this [tutorial video](https://manubot.org/docs/getting-started.html). Then:
 
-1. Go to the project's underlying [GitHub directory](https://github.com/jperkel/mymanuscript).
+1. Go to the document's underlying [GitHub repository](https://github.com/jperkel/mymanuscript).
 2. 'Fork' a copy of the repository to your own GitHub account by clicking the Fork icon at the top of the page.
 3. In your copy of the repository, navigate to the `content` subdirectory.
 4. Click any document file to open it (these are the files whose names begin with numbers, eg `00.front-matter.md`, `01.abstract.md`, ...). In the gray bar above the document text is a toolbar; select the pencil icon to edit the file. Make your suggested changes. 
-5. At the bottom of the page, where it says "Commit changes", add an optional comment, and select 'Create a new branch for this commit and start a pull request.' The software will suggest a new name for this branch, like `jperkel-patch-1`; you can change that if you'd like.
-6. Click "Propose file change". 
-7. In the resulting web page, entitled "Open a pull request", click "Create pull request". 
-8. You're done!
+5. At the bottom of the page, where it says "Commit changes", add an informative message and optional comment.
+6. Select 'Create a new branch for this commit and start a pull request.' The software will suggest a new name for this branch, like `jperkel-patch-1`; you can change that if you'd like.
+7. Click "Propose file change". 
+8. In the resulting web page, entitled "Open a pull request", click "Create pull request". 
+9. You're done!
 
 ## References {.page_break_before}
 
