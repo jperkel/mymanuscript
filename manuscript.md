@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/ebe665ecfe7f0c3028e34f206581da3af85f0427/))
+([permalink](https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/))
 was automatically generated
-from [jperkel/mymanuscript@ebe665e](https://github.com/jperkel/mymanuscript/tree/ebe665ecfe7f0c3028e34f206581da3af85f0427)
+from [jperkel/mymanuscript@fb8d701](https://github.com/jperkel/mymanuscript/tree/fb8d7012d5df61118f8ad4d133303b4cc140b84d)
 on March 5, 2020.
 </em></small>
 
@@ -196,15 +196,14 @@ We can also display those data graphically, as shown in Figure @fig:fig1.
 
 To contribute to this document, check out this [tutorial video](https://manubot.org/docs/getting-started.html). Then:
 
-1. Go to the document's underlying [GitHub repository](https://github.com/jperkel/mymanuscript).
-2. 'Fork' a copy of the repository to your own GitHub account by clicking the Fork icon at the top of the page.
-3. In your copy of the repository, navigate to the `content` subdirectory.
+1. Log into GitHub. (If you do not have an account, create one.)
+2. Go to this document's underlying [GitHub repository](https://github.com/jperkel/mymanuscript).
+3. Navigate to the `content` subdirectory.
 4. Click any document file to open it (these are the files whose names begin with numbers, eg `00.front-matter.md`, `01.abstract.md`, ...). In the gray bar above the document text is a toolbar; select the pencil icon to edit the file. Make your suggested changes. 
-5. At the bottom of the page, where it says "Commit changes", add an informative message and optional comment.
-6. Select 'Create a new branch for this commit and start a pull request.' The software will suggest a new name for this branch, like `jperkel-patch-1`; you can change that if you'd like.
-7. Click "Propose file change". 
-8. In the resulting web page, entitled "Open a pull request", click "Create pull request". 
-9. You're done!
+5. At the bottom of the page, where it says "Propose file change", add an informative message and optional comment. Click "Propose file change".
+6. In the next web page, entitled "Comparing changes", you will see your proposed changes. Click "Create pull request". 
+7. You're done!
+
 
 ## References {.page_break_before}
 
