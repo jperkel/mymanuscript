@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/))
+([permalink](https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/))
 was automatically generated
-from [jperkel/mymanuscript@c27aa3b](https://github.com/jperkel/mymanuscript/tree/c27aa3be396106f5b7dea66ad29c4721b5296ed1)
+from [jperkel/mymanuscript@7579df7](https://github.com/jperkel/mymanuscript/tree/7579df7b772bbd84b15890d86580823ab8c7ec86)
 on March 6, 2020.
 </em></small>
 
@@ -141,7 +141,7 @@ Manubot builds documents from text files written in the simple formatting langua
 
 Here we'll demonstrate the process of inserting data tables and figures, using the Fibonacci sequence as an example. 
 
-The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, ...). Expressed mathematically (using $$\LaTeX$$):
+The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, ...). Expressed mathematically (using $\LaTeX$):
 
 $$F_n = F_{n-1} + F_{n-2}$$
 
