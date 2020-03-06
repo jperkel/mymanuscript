@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/))
+([permalink](https://jperkel.github.io/mymanuscript/v/c27aa3be396106f5b7dea66ad29c4721b5296ed1/))
 was automatically generated
-from [jperkel/mymanuscript@4a3c441](https://github.com/jperkel/mymanuscript/tree/4a3c44179905bc548466c8018d28da0633004043)
+from [jperkel/mymanuscript@c27aa3b](https://github.com/jperkel/mymanuscript/tree/c27aa3be396106f5b7dea66ad29c4721b5296ed1)
 on March 6, 2020.
 </em></small>
 
@@ -132,16 +132,16 @@ Casey Greene -- whose lab first developed Manubot to manage a [review of deep le
 
 >Let's add a citation by persistent identifier. This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128]. It will also give you a chance to review a pull request.
 
-Greene's pull request added a reference to the original Manubot paper using just its DOI -- a feature called 'cite-by-identifier'. Citations can also be added using arXiv [@arxiv:1906.11238] or PubMed IDs [@pmid:32015508], URLs [@url:https://www.nature.com/articles/d41586-020-00655-8], and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location.
+Greene's pull request added a reference to the original Manubot paper using just its DOI -- a feature called 'cite-by-identifier'. Citations can also be added using arXiv [@arxiv:1906.11238] or PubMed IDs [@pmid:32015508], URLs [@url:https://www.nature.com/articles/d41586-020-00655-8], and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which provides a direct link to the PubMed record, among other information. As this particular reference is actually cited twice in this article, you should also see navigation arrows that allow you to jump to each location.
 
 Manubot builds documents from text files written in the simple formatting language called [Markdown](https://www.markdownguide.org/), in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~, hyperlinks, and more. 
 
 
 ## Results
 
-Here we'll demonstrate the process of inserting data tables and figures. 
+Here we'll demonstrate the process of inserting data tables and figures, using the Fibonacci sequence as an example. 
 
-The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, ...). Expressed mathematically (using LaTeX):
+The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, ...). Expressed mathematically (using $$\LaTeX$$):
 
 $$F_n = F_{n-1} + F_{n-2}$$
 
@@ -166,7 +166,7 @@ fibonacci <- function(n) {
 f <- fibonacci(26)
 ```
 
-Manubot treats figures and tables the same as citations, and numbers them automatically by order of appearance. Authors can reference those objects in their text using identifiers, which take the form of an 'at-symbol' followed by an object type (table, figure, or citation). Citation-by-DOI takes the form `doi:DOI` -- `doi:10.1038/d41586-019-03632-y`, for instance.[@doi:10.1038/d41586-019-03632-y]. Tables are identified by `tbl:table-identifier`. For instance, the first 26 Fibonacci numbers are shown in Table @tbl:tbl1. 
+Manubot treats figures and tables the same as citations, and numbers them automatically by order of appearance. Authors can reference those objects in their text using identifiers, which take the form of an 'at-symbol' followed by `object-type:identifier`. DOIs are cited using `doi:DOI` -- `doi:10.1038/d41586-019-03632-y`, for instance, while tables are identified by `tbl:table-identifier` [@doi:10.1038/d41586-019-03632-y]. The first 26 Fibonacci numbers are shown in Table @tbl:tbl1. 
 
 | No. | Fib. No. | No. | Fib. No. |
 |:----|:--------:|:----|:--------:|
@@ -187,7 +187,7 @@ Manubot treats figures and tables the same as citations, and numbers them automa
 Table: The first 26 Fibonacci numbers
 {#tbl:tbl1}
 
-Figures are indicated by `fig:figure-identifier`. For instance, a graphical representation of the data in Table @tbl:tbl1 is shown in Figure @fig:fig1. 
+Figures are indicated by `fig:figure-identifier`. For instance, a graphical representation of the data in Table @tbl:tbl1 is shown in Figure @fig:fig1. (Note the tooltip that appears if you hover over the preceding figure number -- it is a thumbnail of the figure itself.)
 
 ![The first 26 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
 
