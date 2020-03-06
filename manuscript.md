@@ -3,7 +3,7 @@ author-meta:
 - Jeffrey M. Perkel
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-05'
+date-meta: '2020-03-06'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Demo Manubot Manuscript" />
 
-  <meta name="dc.date" content="2020-03-05" />
+  <meta name="dc.date" content="2020-03-06" />
 
-  <meta name="citation_publication_date" content="2020-03-05" />
+  <meta name="citation_publication_date" content="2020-03-06" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,10 +94,10 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/fb8d7012d5df61118f8ad4d133303b4cc140b84d/))
+([permalink](https://jperkel.github.io/mymanuscript/v/4a3c44179905bc548466c8018d28da0633004043/))
 was automatically generated
-from [jperkel/mymanuscript@fb8d701](https://github.com/jperkel/mymanuscript/tree/fb8d7012d5df61118f8ad4d133303b4cc140b84d)
-on March 5, 2020.
+from [jperkel/mymanuscript@4a3c441](https://github.com/jperkel/mymanuscript/tree/4a3c44179905bc548466c8018d28da0633004043)
+on March 6, 2020.
 </em></small>
 
 ## Authors
@@ -119,27 +119,27 @@ on March 5, 2020.
 
 ## Abstract
 
-To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage you to contribute to this document, as detailed in the Methods section below.
+To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage readers to explore and contribute to this document, as detailed in the [Methods section](https://jperkel.github.io/mymanuscript/#methods) below.
 
 
 ## Introduction
 
 [Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub. 
 
-Create a new Manubot project by cloning the [Manubot `rootstock` repository](https://github.com/manubot/rootstock) and then following the instructions in the repo's [`setup.md` file](https://github.com/manubot/rootstock/blob/master/SETUP.md). Once that's finished, you can start adding text to your [`content` directory](https://github.com/manubot/rootstock/tree/master/content). Pushing those changes to GitHub causes Manubot to compile and publish the document in both HTML and PDF formats. 
+Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer and editing the text there. In either case, changes are submitted in the form of a GitHub 'pull request', which allows the project maintainers to review the proposed edits. 
 
-Manubot uses the simple formatting language called [Markdown](https://www.markdownguide.org/), in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~, hyperlinks, and more. 
-
-Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer, editing the text there, and submitting a GitHub 'pull request'. Casey Greene -- whose lab first developed Manubot to manage a [review of deep learning](https://greenelab.github.io/deep-review/) -- added the following text to this document via [pull request](https://github.com/jperkel/mymanuscript/pull/1): 
+Casey Greene -- whose lab first developed Manubot to manage a [review of deep learning](https://greenelab.github.io/deep-review/) -- added the following text to this document via [pull request](https://github.com/jperkel/mymanuscript/pull/1): 
 
 >Let's add a citation by persistent identifier. This is my favorite feature of Manubot [@doi:10.1371/journal.pcbi.1007128]. It will also give you a chance to review a pull request.
 
 Greene's pull request added a reference to the original Manubot paper using just its DOI -- a feature called 'cite-by-identifier'. Citations can also be added using arXiv [@arxiv:1906.11238] or PubMed IDs [@pmid:32015508], URLs [@url:https://www.nature.com/articles/d41586-020-00655-8], and [other identifiers](https://greenelab.github.io/meta-review/#tbl:citations). Here we'll add a second reference by DOI. [@doi:10.1038/d41586-019-03632-y]. Note the tooltip that appears if you mouse over the inline references, which reveals the PubMed ID, among other information. As this particular reference is actually cited twice in the article, you should also see navigation arrows that allow you to jump to each location.
 
+Manubot builds documents from text files written in the simple formatting language called [Markdown](https://www.markdownguide.org/), in which, for example, **bold text** is indicated by double asterisks and *italic text* is indicated by single asterisks. You can add superscripts (x^2^) and subscripts (H~2~O), as well as ~~strikethrough text~~, hyperlinks, and more. 
+
 
 ## Results
 
-Here we'll demonstrate how Manubot supports documents containing data tables and figures. 
+Here we'll demonstrate the process of inserting data tables and figures. 
 
 The Fibonacci sequence is a numeric sequence in which each number is the sum of the previous two numbers (0, 1, 1, 2, 3, 5, ...). Expressed mathematically (using LaTeX):
 
@@ -166,7 +166,7 @@ fibonacci <- function(n) {
 f <- fibonacci(26)
 ```
 
-Manubot automatically numbers figures and tables, and allows authors to reference those objects using identifiers. For instance, the first 26 Fibonacci numbers are shown in Table @tbl:tbl1. (The preceding number was automatically generated and inserted.)[@doi:10.1038/d41586-019-03632-y]
+Manubot treats figures and tables the same as citations, and numbers them automatically by order of appearance. Authors can reference those objects in their text using identifiers, which take the form of an 'at-symbol' followed by an object type (table, figure, or citation). Citation-by-DOI takes the form `doi:DOI` -- `doi:10.1038/d41586-019-03632-y`, for instance.[@doi:10.1038/d41586-019-03632-y]. Tables are identified by `tbl:table-identifier`. For instance, the first 26 Fibonacci numbers are shown in Table @tbl:tbl1. 
 
 | No. | Fib. No. | No. | Fib. No. |
 |:----|:--------:|:----|:--------:|
@@ -187,22 +187,29 @@ Manubot automatically numbers figures and tables, and allows authors to referenc
 Table: The first 26 Fibonacci numbers
 {#tbl:tbl1}
 
-We can also display those data graphically, as shown in Figure @fig:fig1. 
+Figures are indicated by `fig:figure-identifier`. For instance, a graphical representation of the data in Table @tbl:tbl1 is shown in Figure @fig:fig1. 
 
 ![The first 26 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
 
 
 ## Methods
 
-To contribute to this document, check out this [tutorial video](https://manubot.org/docs/getting-started.html). Then:
+To create or contribute to a Manubot project, you will need to be logged into GitHub. If you do not have an account, create one.
 
-1. Log into GitHub. (If you do not have an account, create one.)
-2. Go to this document's underlying [GitHub repository](https://github.com/jperkel/mymanuscript).
-3. Navigate to the `content` subdirectory.
-4. Click any document file to open it (these are the files whose names begin with numbers, eg `00.front-matter.md`, `01.abstract.md`, ...). In the gray bar above the document text is a toolbar; select the pencil icon to edit the file. Make your suggested changes. 
-5. At the bottom of the page, where it says "Propose file change", add an informative message and optional comment. Click "Propose file change".
-6. In the next web page, entitled "Comparing changes", you will see your proposed changes. Click "Create pull request". 
-7. You're done!
+### Creating a new Manubot project
+1. Create a new Manubot project by cloning the [Manubot `rootstock` repository](https://github.com/manubot/rootstock) and following the instructions in the repo's [`setup.md` file](https://github.com/manubot/rootstock/blob/master/SETUP.md). 
+2. Add text to your project's [`content` directory](https://github.com/manubot/rootstock/tree/master/content). 
+3. Push those changes to GitHub. Manubot will then compile and publish the document online in both HTML and PDF formats. 
+
+### Contributing to an existing Manubot project
+1. Go to this document's underlying [GitHub repository](https://github.com/jperkel/mymanuscript).
+2. Navigate to the `content` subdirectory.
+3. Click any document file to open it (these are the files whose names begin with numbers, eg `00.front-matter.md`, `01.abstract.md`, ...). In the gray bar above the document text is a toolbar; select the pencil icon to edit the file. Make your suggested changes. 
+4. At the bottom of the page, where it says "Propose file change", add an informative message and optional comment. Click "Propose file change".
+5. In the next web page, entitled "Comparing changes", you will see your proposed changes. Click "Create pull request". 
+6. You're done!
+
+This [tutorial video](https://manubot.org/docs/getting-started.html) demonstrates the process.
 
 
 ## References {.page_break_before}
