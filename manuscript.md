@@ -3,7 +3,7 @@ author-meta:
 - Jeffrey M. Perkel
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-06'
+date-meta: '2020-03-13'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -14,17 +14,17 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Demo Manubot Manuscript" />
+  <meta name="dc.title" content="Collaborative Writing with Manubot" />
 
-  <meta name="citation_title" content="Demo Manubot Manuscript" />
+  <meta name="citation_title" content="Collaborative Writing with Manubot" />
 
-  <meta property="og:title" content="Demo Manubot Manuscript" />
+  <meta property="og:title" content="Collaborative Writing with Manubot" />
 
-  <meta property="twitter:title" content="Demo Manubot Manuscript" />
+  <meta property="twitter:title" content="Collaborative Writing with Manubot" />
 
-  <meta name="dc.date" content="2020-03-06" />
+  <meta name="dc.date" content="2020-03-13" />
 
-  <meta name="citation_publication_date" content="2020-03-06" />
+  <meta name="citation_publication_date" content="2020-03-13" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,7 +84,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Demo Manubot Manuscript
+title: Collaborative Writing with Manubot
 ...
 
 
@@ -94,10 +94,10 @@ title: Demo Manubot Manuscript
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/7579df7b772bbd84b15890d86580823ab8c7ec86/))
+([permalink](https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/))
 was automatically generated
-from [jperkel/mymanuscript@7579df7](https://github.com/jperkel/mymanuscript/tree/7579df7b772bbd84b15890d86580823ab8c7ec86)
-on March 6, 2020.
+from [jperkel/mymanuscript@a2fbdfd](https://github.com/jperkel/mymanuscript/tree/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60)
+on March 13, 2020.
 </em></small>
 
 ## Authors

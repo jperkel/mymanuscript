@@ -110,6 +110,9 @@
   },
   {
     "title": "A new coronavirus associated with human respiratory disease in China.",
+    "volume": "579",
+    "issue": "7798",
+    "page": "265-269",
     "container-title": "Nature",
     "container-title-short": "Nature",
     "ISSN": "1476-4687",
@@ -213,6 +216,8 @@
     "type": "article-journal",
     "title": "CRISPR treatment inserted directly into the body for first time",
     "container-title": "Nature",
+    "page": "185-185",
+    "volume": "579",
     "source": "www.nature.com",
     "abstract": "Experiment tests a gene-editing therapy for a hereditary blindness disorder.",
     "URL": "https://www.nature.com/articles/d41586-020-00655-8",
@@ -238,7 +243,7 @@
         [
           "2020",
           3,
-          6
+          13
         ]
       ]
     },
