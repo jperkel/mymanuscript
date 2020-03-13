@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60/))
+([permalink](https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/))
 was automatically generated
-from [jperkel/mymanuscript@a2fbdfd](https://github.com/jperkel/mymanuscript/tree/a2fbdfd5ee9174491196f2b3be1200cb4bfb7e60)
+from [jperkel/mymanuscript@8fc54bb](https://github.com/jperkel/mymanuscript/tree/8fc54bb961c3ae73311be56be18ece8e079415e6)
 on March 13, 2020.
 </em></small>
 
@@ -119,7 +119,7 @@ on March 13, 2020.
 
 ## Abstract
 
-To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage readers to explore and contribute to this document, as detailed in the [Methods section](https://jperkel.github.io/mymanuscript/#methods) below.
+To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage readers to explore and contribute to this document, as detailed in the [Methods section](https://jperkel.github.io/mymanuscript/#contributing-to-an-existing-manubot-project) below.
 
 
 ## Introduction
