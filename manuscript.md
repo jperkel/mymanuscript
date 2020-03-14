@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/))
+([permalink](https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/))
 was automatically generated
-from [jperkel/mymanuscript@5450906](https://github.com/jperkel/mymanuscript/tree/54509069dcb28052d391229d789fb43417476aa0)
+from [jperkel/mymanuscript@8516ba7](https://github.com/jperkel/mymanuscript/tree/8516ba7f406d9cec1f9b12100f7823c3828a025f)
 on March 14, 2020.
 </em></small>
 
