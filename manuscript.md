@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/))
+([permalink](https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/))
 was automatically generated
-from [jperkel/mymanuscript@f225d49](https://github.com/jperkel/mymanuscript/tree/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef)
+from [jperkel/mymanuscript@539f28d](https://github.com/jperkel/mymanuscript/tree/539f28d418c04e913b42151aaf1a366b0ebe2c9d)
 on March 14, 2020.
 </em></small>
 
@@ -119,14 +119,14 @@ on March 14, 2020.
 
 ## Abstract
 
-To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage readers to explore and contribute to this document, as detailed in the [Methods section](https://jperkel.github.io/mymanuscript/#contributing-to-an-existing-manubot-project) below.
+To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage readers to explore and [contribute to this document](https://jperkel.github.io/mymanuscript/#contributing-to-an-existing-manubot-project), as detailed in the Methods section below.
 
 
 ## Introduction
 
 [Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub, and at least 30 articles have been published online using the tool (Figure @fig:manubot-fig).
 
-![Number of articles published using Manubot by year (blue), and the cumulative total of articles (red). Source: [https://manubot.org/catalog/](https://manubot.org/catalog/)](images/manubot.jpg){#fig:manubot-fig width="50%"}
+![Number of articles published using Manubot by year (blue), and the cumulative total of articles (red). Data are current as of 13 March 2020. Source: [https://manubot.org/catalog/](https://manubot.org/catalog/)](images/manubot.jpg){#fig:manubot-fig width="50%"}
 
 Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer and editing the text there. In either case, changes are submitted in the form of a GitHub 'pull request', which allows the project maintainers to review the proposed edits. 
 
