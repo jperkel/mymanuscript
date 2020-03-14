@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/8516ba7f406d9cec1f9b12100f7823c3828a025f/))
+([permalink](https://jperkel.github.io/mymanuscript/v/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef/))
 was automatically generated
-from [jperkel/mymanuscript@8516ba7](https://github.com/jperkel/mymanuscript/tree/8516ba7f406d9cec1f9b12100f7823c3828a025f)
+from [jperkel/mymanuscript@f225d49](https://github.com/jperkel/mymanuscript/tree/f225d49d25b2dc89357c21d5d6dec69c3e0f89ef)
 on March 14, 2020.
 </em></small>
 
@@ -126,7 +126,7 @@ To provide a working example for an article on collaborative science writing pla
 
 [Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub, and at least 30 articles have been published online using the tool (Figure @fig:manubot-fig).
 
-![Number of articles published using Manubot by year (blue), and the cumulative total of articles (red). Source: [https://manubot.org/catalog/](https://manubot.org/catalog/)](images/manubot.jpg){#fig:manubot-fig}
+![Number of articles published using Manubot by year (blue), and the cumulative total of articles (red). Source: [https://manubot.org/catalog/](https://manubot.org/catalog/)](images/manubot.jpg){#fig:manubot-fig width="50%"}
 
 Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer and editing the text there. In either case, changes are submitted in the form of a GitHub 'pull request', which allows the project maintainers to review the proposed edits. 
 
