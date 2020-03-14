@@ -3,7 +3,7 @@ author-meta:
 - Jeffrey M. Perkel
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-13'
+date-meta: '2020-03-14'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Collaborative Writing with Manubot" />
 
-  <meta name="dc.date" content="2020-03-13" />
+  <meta name="dc.date" content="2020-03-14" />
 
-  <meta name="citation_publication_date" content="2020-03-13" />
+  <meta name="citation_publication_date" content="2020-03-14" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,10 +94,10 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/8fc54bb961c3ae73311be56be18ece8e079415e6/))
+([permalink](https://jperkel.github.io/mymanuscript/v/54509069dcb28052d391229d789fb43417476aa0/))
 was automatically generated
-from [jperkel/mymanuscript@8fc54bb](https://github.com/jperkel/mymanuscript/tree/8fc54bb961c3ae73311be56be18ece8e079415e6)
-on March 13, 2020.
+from [jperkel/mymanuscript@5450906](https://github.com/jperkel/mymanuscript/tree/54509069dcb28052d391229d789fb43417476aa0)
+on March 14, 2020.
 </em></small>
 
 ## Authors
@@ -124,7 +124,9 @@ To provide a working example for an article on collaborative science writing pla
 
 ## Introduction
 
-[Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub. 
+[Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub, and at least 30 articles have been published online using the tool (Figure @fig:manubot-fig).
+
+![Number of articles published using Manubot by year (blue), and the cumulative total of articles (red). Source: [https://manubot.org/catalog/](https://manubot.org/catalog/)](images/manubot.jpg){#fig:manubot-fig}
 
 Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer and editing the text there. In either case, changes are submitted in the form of a GitHub 'pull request', which allows the project maintainers to review the proposed edits. 
 
@@ -187,9 +189,9 @@ Manubot treats figures and tables the same as citations, and numbers them automa
 Table: The first 26 Fibonacci numbers
 {#tbl:tbl1}
 
-Figures are indicated by `fig:figure-identifier`. For instance, a graphical representation of the data in Table @tbl:tbl1 is shown in Figure @fig:fig1. (Note the tooltip that appears if you hover over the preceding figure number -- it is a thumbnail of the figure itself.)
+Figures are indicated by `fig:figure-identifier`. For instance, a graphical representation of the data in Table @tbl:tbl1 is shown in Figure @fig:fibonacci-fig. (Note the tooltip that appears if you hover over the preceding figure number -- it is a thumbnail of the figure itself.)
 
-![The first 26 Fibonacci numbers](images/fibonacci.jpg){#fig:fig1}
+![The first 26 Fibonacci numbers](images/fibonacci.jpg){#fig:fibonacci-fig}
 
 
 ## Methods
