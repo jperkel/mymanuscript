@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/))
+([permalink](https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/))
 was automatically generated
-from [jperkel/mymanuscript@fb6e5df](https://github.com/jperkel/mymanuscript/tree/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7)
+from [jperkel/mymanuscript@239ca80](https://github.com/jperkel/mymanuscript/tree/239ca80e7b203bc9523fcdbffefa41e8d373108b)
 on March 31, 2020.
 </em></small>
 
@@ -213,6 +213,26 @@ To create or contribute to a Manubot project, you will need to be logged into Gi
 
 This [tutorial video](https://manubot.org/docs/getting-started.html) demonstrates the process.
 
+### Figure generation
+The following code was used to generate the Manubot data shown in Figure @fig:manubot-fig.
+
+```R
+library(tidyverse)
+library(gghighlight)
+
+df <- data.frame(Year = 2017:2020, N = c(2, 2, 16, 10), cumsum = c(2,4,20,30))
+p <- ggplot (df) + 
+  geom_col(aes(x=Year, y=N), fill="blue") +
+  geom_line(aes(x=Year, y=cumsum), color = "red", size = 1) +
+  geom_point(aes(x=Year,y=cumsum)) +
+  gghighlight(Year < 2020, use_direct_label = FALSE) +
+  geom_label(aes(Year, cumsum, label=cumsum)) +
+  ylab("# of Manubot papers") 
+
+print(p)
+ggsave('~/Downloads/manubot.jpg', width = 2.87, height = 3.39, units = "in")
+
+```
 
 ## References {.page_break_before}
 
