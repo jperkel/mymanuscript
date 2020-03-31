@@ -108,13 +108,13 @@
   <meta name="citation_fulltext_html_url" content="https://jperkel.github.io/mymanuscript/" />
   <meta name="citation_pdf_url" content="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/" />
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/" />
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/jperkel/mymanuscript/raw/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/build/assets/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/jperkel/mymanuscript/raw/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/jperkel/mymanuscript/raw/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/jperkel/mymanuscript/raw/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/build/assets/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -126,9 +126,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/">permalink</a>)
+(<a href="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/jperkel/mymanuscript/tree/83d25d5c803fb3656ba0e4af5a6856d3d7a42319">jperkel/mymanuscript@83d25d5</a>
+from <a href="https://github.com/jperkel/mymanuscript/tree/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2">jperkel/mymanuscript@f740bb1</a>
 on March 31, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -315,7 +315,7 @@ Technology Editor, Nature
 <span id="cb2-11"><a href="#cb2-11"></a>))</span>
 <span id="cb2-12"><a href="#cb2-12"></a></span>
 <span id="cb2-13"><a href="#cb2-13"></a><span class="co"># compute cumulative total for each year</span></span>
-<span id="cb2-14"><a href="#cb2-14"></a>df &lt;-<span class="st"> </span><span class="kw">within</span>(df, cumsum &lt;-<span class="st"> </span><span class="kw">cumsum</span>(N))</span>
+<span id="cb2-14"><a href="#cb2-14"></a>df[<span class="st">&quot;cumsum&quot;</span>] &lt;-<span class="st"> </span><span class="kw">cumsum</span>(df<span class="op">$</span>N)</span>
 <span id="cb2-15"><a href="#cb2-15"></a></span>
 <span id="cb2-16"><a href="#cb2-16"></a>p &lt;-<span class="st"> </span><span class="kw">ggplot</span> (df) <span class="op">+</span><span class="st"> </span></span>
 <span id="cb2-17"><a href="#cb2-17"></a><span class="st">  </span><span class="kw">geom_col</span>(<span class="kw">aes</span>(<span class="dt">x=</span>Year, <span class="dt">y=</span>N), <span class="dt">fill=</span><span class="st">&quot;blue&quot;</span>) <span class="op">+</span></span>

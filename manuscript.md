@@ -58,19 +58,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/jperkel/mymanuscript/raw/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/jperkel/mymanuscript/raw/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/jperkel/mymanuscript/raw/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/jperkel/mymanuscript/raw/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -98,9 +98,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/83d25d5c803fb3656ba0e4af5a6856d3d7a42319/))
+([permalink](https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/))
 was automatically generated
-from [jperkel/mymanuscript@83d25d5](https://github.com/jperkel/mymanuscript/tree/83d25d5c803fb3656ba0e4af5a6856d3d7a42319)
+from [jperkel/mymanuscript@f740bb1](https://github.com/jperkel/mymanuscript/tree/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2)
 on March 31, 2020.
 </em></small>
 
@@ -234,7 +234,7 @@ df <- read.csv(textConnection(
 ))
 
 # compute cumulative total for each year
-df <- within(df, cumsum <- cumsum(N))
+df["cumsum"] <- cumsum(df$N)
 
 p <- ggplot (df) + 
   geom_col(aes(x=Year, y=N), fill="blue") +
