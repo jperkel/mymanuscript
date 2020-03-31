@@ -58,15 +58,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/5056795cd3451fdc2d52fd00f76c8fc8d6219b84/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/5056795cd3451fdc2d52fd00f76c8fc8d6219b84/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/5056795cd3451fdc2d52fd00f76c8fc8d6219b84/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="og:image" content="https://github.com/jperkel/mymanuscript/raw/5056795cd3451fdc2d52fd00f76c8fc8d6219b84/build/assets/thumbnail.png" />
+
+  <meta property="twitter:image" content="https://github.com/jperkel/mymanuscript/raw/5056795cd3451fdc2d52fd00f76c8fc8d6219b84/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -94,9 +98,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/))
+([permalink](https://jperkel.github.io/mymanuscript/v/5056795cd3451fdc2d52fd00f76c8fc8d6219b84/))
 was automatically generated
-from [jperkel/mymanuscript@6995747](https://github.com/jperkel/mymanuscript/tree/699574780349a31dd8e4d7f4e00182dd110a9693)
+from [jperkel/mymanuscript@5056795](https://github.com/jperkel/mymanuscript/tree/5056795cd3451fdc2d52fd00f76c8fc8d6219b84)
 on March 31, 2020.
 </em></small>
 
