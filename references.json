@@ -204,6 +204,7 @@
       }
     ],
     "PMID": "32015508",
+    "PMCID": "PMC7094943",
     "DOI": "10.1038/s41586-020-2008-3",
     "abstract": "Emerging infectious diseases, such as severe acute respiratory syndrome (SARS) and Zika virus disease, present a major threat to public health",
     "URL": "https://www.ncbi.nlm.nih.gov/pubmed/32015508",
@@ -243,7 +244,7 @@
         [
           "2020",
           3,
-          14
+          31
         ]
       ]
     },

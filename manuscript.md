@@ -3,7 +3,7 @@ author-meta:
 - Jeffrey M. Perkel
 bibliography:
 - content/manual-references.json
-date-meta: '2020-03-14'
+date-meta: '2020-03-31'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Collaborative Writing with Manubot" />
 
-  <meta name="dc.date" content="2020-03-14" />
+  <meta name="dc.date" content="2020-03-31" />
 
-  <meta name="citation_publication_date" content="2020-03-14" />
+  <meta name="citation_publication_date" content="2020-03-31" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,10 +94,10 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/539f28d418c04e913b42151aaf1a366b0ebe2c9d/))
+([permalink](https://jperkel.github.io/mymanuscript/v/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7/))
 was automatically generated
-from [jperkel/mymanuscript@539f28d](https://github.com/jperkel/mymanuscript/tree/539f28d418c04e913b42151aaf1a366b0ebe2c9d)
-on March 14, 2020.
+from [jperkel/mymanuscript@fb6e5df](https://github.com/jperkel/mymanuscript/tree/fb6e5dfeea1ea4a09b0025f6f94d4f79f22ca7e7)
+on March 31, 2020.
 </em></small>
 
 ## Authors
@@ -119,7 +119,7 @@ on March 14, 2020.
 
 ## Abstract
 
-To provide a working example for an article on collaborative science writing platforms, we created this demonstration document. This abstract will be updated with publication details once the article goes public. In the meantime, we encourage readers to explore and [contribute to this document](https://jperkel.github.io/mymanuscript/#contributing-to-an-existing-manubot-project), as detailed in the Methods section below.
+To provide a working example for an [article on collaborative science writing](https://www.nature.com/articles/d41586-020-00916-6) platforms, we created this demonstration document. The article was published 31 March 2020 in _Nature_. We encourage readers to explore and [contribute to this document](https://jperkel.github.io/mymanuscript/#contributing-to-an-existing-manubot-project), as detailed in the Methods section below.
 
 
 ## Introduction
