@@ -58,11 +58,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -94,9 +94,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/239ca80e7b203bc9523fcdbffefa41e8d373108b/))
+([permalink](https://jperkel.github.io/mymanuscript/v/699574780349a31dd8e4d7f4e00182dd110a9693/))
 was automatically generated
-from [jperkel/mymanuscript@239ca80](https://github.com/jperkel/mymanuscript/tree/239ca80e7b203bc9523fcdbffefa41e8d373108b)
+from [jperkel/mymanuscript@6995747](https://github.com/jperkel/mymanuscript/tree/699574780349a31dd8e4d7f4e00182dd110a9693)
 on March 31, 2020.
 </em></small>
 
@@ -124,9 +124,9 @@ To provide a working example for an [article on collaborative science writing](h
 
 ## Introduction
 
-[Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub, and at least 30 articles have been published online using the tool (Figure @fig:manubot-fig).
+[Manubot](https://manubot.org/) is a tool for collaboratively authoring and editing scientific manuscripts. It marries the scientific writing process with the workflow of open-source software development, much of which occurs on GitHub, and more than 30 articles have been published online using the tool (Figure @fig:manubot-fig).
 
-![Number of articles published using Manubot by year (blue), and the cumulative total of articles (red). Data are current as of 13 March 2020. Source: [https://manubot.org/catalog/](https://manubot.org/catalog/)](images/manubot.jpg){#fig:manubot-fig width="50%"}
+![Number of articles published using Manubot by year (blue), and the cumulative total of articles (red). Data are current as of 31 March 2020. Source: [https://manubot.org/catalog/](https://manubot.org/catalog/)](images/manubot.jpg){#fig:manubot-fig width="50%"}
 
 Authors and collaborators can contribute to a project either by editing the document files on the GitHub web site or by cloning the repository to their own computer and editing the text there. In either case, changes are submitted in the form of a GitHub 'pull request', which allows the project maintainers to review the proposed edits. 
 
@@ -214,13 +214,24 @@ To create or contribute to a Manubot project, you will need to be logged into Gi
 This [tutorial video](https://manubot.org/docs/getting-started.html) demonstrates the process.
 
 ### Figure generation
-The following code was used to generate the Manubot data shown in Figure @fig:manubot-fig.
+The following code was used to generate the Manubot data figure shown in Figure @fig:manubot-fig.
 
 ```R
 library(tidyverse)
 library(gghighlight)
 
-df <- data.frame(Year = 2017:2020, N = c(2, 2, 16, 10), cumsum = c(2,4,20,30))
+# data from https://manubot.org/catalog/ as of 31 Mar 2020
+df <- read.csv(textConnection(
+ "Year,N
+ 2017,2
+ 2018,2
+ 2019,15
+ 2020,15" 
+))
+
+# compute comulative sum for each row
+df <- within(df, cumsum <- cumsum(N))
+
 p <- ggplot (df) + 
   geom_col(aes(x=Year, y=N), fill="blue") +
   geom_line(aes(x=Year, y=cumsum), color = "red", size = 1) +
@@ -228,7 +239,7 @@ p <- ggplot (df) +
   gghighlight(Year < 2020, use_direct_label = FALSE) +
   geom_label(aes(Year, cumsum, label=cumsum)) +
   ylab("# of Manubot papers") 
-
+  
 print(p)
 ggsave('~/Downloads/manubot.jpg', width = 2.87, height = 3.39, units = "in")
 
