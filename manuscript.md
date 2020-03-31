@@ -58,19 +58,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://jperkel.github.io/mymanuscript/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/" />
+  <link rel="alternate" type="text/html" href="https://jperkel.github.io/mymanuscript/v/b2f01932edeae13c86f1ad25a2d3939b7ae0d22d/" />
 
-  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/" />
+  <meta name="manubot_html_url_versioned" content="https://jperkel.github.io/mymanuscript/v/b2f01932edeae13c86f1ad25a2d3939b7ae0d22d/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://jperkel.github.io/mymanuscript/v/b2f01932edeae13c86f1ad25a2d3939b7ae0d22d/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/jperkel/mymanuscript/raw/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/build/assets/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/jperkel/mymanuscript/raw/b2f01932edeae13c86f1ad25a2d3939b7ae0d22d/build/assets/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/jperkel/mymanuscript/raw/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/build/assets/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/jperkel/mymanuscript/raw/b2f01932edeae13c86f1ad25a2d3939b7ae0d22d/build/assets/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -98,9 +98,9 @@ title: Collaborative Writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://jperkel.github.io/mymanuscript/v/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2/))
+([permalink](https://jperkel.github.io/mymanuscript/v/b2f01932edeae13c86f1ad25a2d3939b7ae0d22d/))
 was automatically generated
-from [jperkel/mymanuscript@f740bb1](https://github.com/jperkel/mymanuscript/tree/f740bb1ea5b5ddfb5bb3be4d179c0651703f26a2)
+from [jperkel/mymanuscript@b2f0193](https://github.com/jperkel/mymanuscript/tree/b2f01932edeae13c86f1ad25a2d3939b7ae0d22d)
 on March 31, 2020.
 </em></small>
 
@@ -123,7 +123,7 @@ on March 31, 2020.
 
 ## Abstract
 
-To provide a working example for an [article on collaborative science writing](https://www.nature.com/articles/d41586-020-00916-6) platforms, we created this demonstration document. The article was published 31 March 2020 in _Nature_. We encourage readers to explore and [contribute to this document](https://jperkel.github.io/mymanuscript/#contributing-to-an-existing-manubot-project), as detailed in the Methods section below.
+To provide a working example for an [article on collaborative science writing](https://www.nature.com/articles/d41586-020-00916-6) platforms, we created this demonstration document. The article was published 31 March 2020 in _Nature_ [@doi:10.1038/d41586-020-00916-6]. We encourage readers to explore and [contribute to this document](https://jperkel.github.io/mymanuscript/#contributing-to-an-existing-manubot-project), as detailed in the Methods section below.
 
 
 ## Introduction
